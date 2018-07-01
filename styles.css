@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+body {
+    text-align: center;
+    width: 70%;
+    color: #fff;
+    margin: 0% auto;
+    border: solid #1c262f 3px;
+    border-radius: .5em;
+    background-color: #1c262f; 
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 70px;
+    margin: 0.2em;
+    color: #30ff60;
+    margin-top: 10%;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+form{
+    border: solid #30ff60 3px;
+    width: 500px;
+    margin: 0% auto;
+    border-radius: .5em;
+    font-family: Montserrat;
+    font-weight:600;
+}
+input{
+    margin: 2%;
+    
+}
+.submit{
+    margin-top: 10%;
+    background-color: #33df5b;
+    color: #fff;
+    border-color: transparent;
+    width: 30%;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.submit:focus{
+    margin-top: 10%;
+    background-color: #30ff60;
+    border-color: transparent;
+    width: 30%;
+    
+}
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width:10em;
+    border-radius: .5em;
+    
+}
+#pixel_canvas{
+    border-color: #fff !important;
+}
