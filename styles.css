@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 body {
     text-align: center;
-    width: 70%;
+    width: 80%;
     color: #fff;
     margin: 0% auto;
     border: solid #1c262f 3px;
@@ -10,8 +9,8 @@ body {
 }
 
 h1 {
-    font-family: Montserrat;
-    font-weight: 900;
+    font-family: Monoton;
+    font-weight: 300;
     font-size: 70px;
     margin: 0.2em;
     color: #30ff60;
@@ -20,16 +19,16 @@ h1 {
 
 h2 {
     margin: 1em 0 0.25em;
-    font-family: Montserrat;
-    font-weight: 700;
+    font-family: Monoton;
+    font-weight: 100;
 }
 form{
-    border: solid #30ff60 3px;
-    width: 500px;
+    border: solid #30ff60 2px;
+    width: 55%;
     margin: 0% auto;
     border-radius: .5em;
-    font-family: Montserrat;
-    font-weight:600;
+    font-family: Monoton;
+    font-weight: 50;
 }
 input{
     margin: 2%;
@@ -41,7 +40,7 @@ input{
     color: #fff;
     border-color: transparent;
     width: 30%;
-    font-family: Montserrat;
+    font-family: Monoton;
     font-weight: 600;
 }
 .submit:focus{
@@ -79,6 +78,7 @@ input[type=number] {
     border-radius: .5em;
     
 }
-#pixel_canvas{
-    border-color: #fff !important;
+#pixelCanvas{
+    background-color: #fff;
+    margin-bottom: 2%;
 }
